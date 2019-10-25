@@ -105,9 +105,13 @@
 
 .second-article {
     display: flex;
+}
+
+.second-article-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 50px 0 0 0;
 }
 
 .second-article-image {
@@ -115,8 +119,7 @@
 }
 
 .article-image {
-    margin: 50px 0 0 50px;
-    width: 80%;
+    width: 90%;
 }
 
 /* END ARTICLE SECTION*/
@@ -224,25 +227,38 @@
 
     /* END IDENTIFY SMARTPHONE */
 
+    /* ARTICLE SECTION */
+
     .article-container {
         width: 100%;
         border-radius: 0;
         padding: 40px;
         margin-bottom: 300px;
+        text-align: center;
     }
 
-    .first-article {
-        text-align: center;
+    .article-container>h3 {
+        margin-top: 20px;
     }
 
     .second-article {
         flex-direction: column;
         text-align: center;
+        
+    }
+
+    .second-article-container {
+        margin-top: 20px;
     }
 
     .article-image {
         margin: 0;
+        width: 34vh;
     }
+
+    /* END ARTICLE SECTION */
+
+    /* CHANGE ARTICLE SECTION */
 
     .change-article-container {
         flex-direction: column;
@@ -256,17 +272,25 @@
         bottom: 150px;
         left: 0;
         z-index: 1030;
+        filter: drop-shadow(0 0mm 2mm rgba(0, 0, 0, 0.3));
     }
 
     .change-article-click {
         width: 100%;
     }
 
-    .footer-article {
+    /* END CHANGE ARTICLE SECTION */
+
+    /* ARTICLE FOOTER */
+
+    .article-footer {
         position: fixed;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: 1030;
     }
+
+    /* END ARTICLE FOOTER */
+
 }

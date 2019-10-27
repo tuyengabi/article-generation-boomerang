@@ -1,5 +1,5 @@
 .article-page {
-    background-color: #d3d3d3 !important;
+    background-color: #dddddd !important;
     font-family: Verdana;
     margin-bottom: 40px;
     padding-top: 40px;
@@ -87,6 +87,10 @@
 .btn-return>a:hover {
     color: #ff6c00;
     text-decoration: none;
+}
+
+.btn-close {
+  visibility: visible;
 }
 
 /* END IDENTIFY */
@@ -224,6 +228,10 @@
     .btn-return {
         display: none;
     }
+
+.btn-close {
+  visibility: visible;
+}
 
     /* END IDENTIFY SMARTPHONE */
 

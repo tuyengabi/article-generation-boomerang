@@ -80,17 +80,18 @@
     height: 100%;
 }
 
-.btn-return>a {
+.btn-return {
     color: #00dec6;
 }
 
-.btn-return>a:hover {
+.btn-return:hover {
     color: #ff6c00;
     text-decoration: none;
 }
 
 .btn-close {
-  visibility: visible;
+  opacity: 0;
+  width: 40px;
 }
 
 /* END IDENTIFY */
@@ -230,7 +231,10 @@
     }
 
 .btn-close {
-  visibility: visible;
+  opacity: 100%;
+  position: absolute;
+  top: -13%;
+  right: 10%;
 }
 
     /* END IDENTIFY SMARTPHONE */

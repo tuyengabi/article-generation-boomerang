@@ -90,8 +90,8 @@
 }
 
 .btn-close {
-  opacity: 0;
-  width: 40px;
+    opacity: 0;
+    width: 30px;
 }
 
 /* END IDENTIFY */
@@ -184,6 +184,14 @@
     transform: rotate(90deg);
 }
 
+.article-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 /* END CHANGE ARTICLE SECTION */
 
 @media screen and ((min-width: 0px) and (max-width: 900px)) {
@@ -230,12 +238,12 @@
         display: none;
     }
 
-.btn-close {
-  opacity: 100%;
-  position: absolute;
-  top: -13%;
-  right: 10%;
-}
+    .btn-close {
+        opacity: 80%;
+        position: absolute;
+        top: -10%;
+        right: 10%;
+    }
 
     /* END IDENTIFY SMARTPHONE */
 
@@ -256,7 +264,7 @@
     .second-article {
         flex-direction: column;
         text-align: center;
-        
+
     }
 
     .second-article-container {

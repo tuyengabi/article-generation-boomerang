@@ -184,13 +184,7 @@
     transform: rotate(90deg);
 }
 
-.article-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030;
-}
+
 
 /* END CHANGE ARTICLE SECTION */
 
